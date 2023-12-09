@@ -1,0 +1,59 @@
+.class-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.class-list {
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.class-list:hover {
+  color: white;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.displayed-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5vh;
+  font-size: 30px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15vw;
+  padding-top: 3vh;
+}
+
+.input-field input {
+  margin-top: 1vh;
+  background-color: rgba(128, 128, 128, 0.424);
+  height: 2vh;
+  width: 8vw;
+  padding-left: 0.5vw;
+  font-size: 1.5vh;
+  color: gold;
+  border-radius: 8px;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.546);
+}
+
+.input-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

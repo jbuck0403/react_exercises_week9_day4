@@ -1,0 +1,10 @@
+#root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: gold;
+}
+
+html {
+  background-color: rgba(0, 0, 0, 0.794);
+}
